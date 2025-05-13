@@ -92,7 +92,7 @@ The system searches through the reviews to find relevant information and generat
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.12
 - OpenAI API key
 - Pandas
 - Streamlit
