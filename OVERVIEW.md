@@ -1,5 +1,3 @@
-[MODE: EXECUTE]
-
 # Disney Parks Review Analysis – Comprehensive Documentation
 
 ---
@@ -81,10 +79,10 @@ This project analyzes Disney park reviews to extract actionable insights and pro
 
 ### How ChromaDB is Used
 
-- **Embeddings:** Each review (or chunk) is embedded using OpenAI's `text-embedding-ada-002` model.
+- **Embeddings:** Each review (or chunk) is embedded using OpenAI's model.
 - **Storage:** Embeddings and metadata are stored in ChromaDB, a high-performance vector database.
 - **Batching:** To respect API limits, embeddings are generated in batches (max 5,000 per batch).
-- **Persistence:** The vector DB is persisted to disk for fast reloads and sharing.
+- **Persistence:** The vector DB is persisted to disk (.cache folder) for fast reloads and sharing.
 
 ### Batching and Filtering
 
