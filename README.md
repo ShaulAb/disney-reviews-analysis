@@ -26,13 +26,13 @@ The project is organized into several modules:
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone git@github.com:ShaulAb/disney-reviews-analysis.git
    cd disney-reviews-analysis
    ```
 
 2. Install the required packages:
    ```
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 3. Set up environment variables:
